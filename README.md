@@ -5,7 +5,7 @@
 [![NPM](https://img.shields.io/npm/v/mui-formik.svg)](https://www.npmjs.com/package/mui-formik) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ```bash
-yarn add mui-formik
+yarn add @medorrohealth/mui-formik
 ```
 
 ## Usage
