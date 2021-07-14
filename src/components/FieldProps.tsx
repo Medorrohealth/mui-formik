@@ -1,4 +1,4 @@
-import { FormControlProps, InputProps } from '@material-ui/core'
+import { FormControlProps, InputProps, TextFieldProps } from '@material-ui/core'
 
 export interface BaseFormikFieldProps {
   name: string
@@ -9,6 +9,8 @@ export interface BaseFormikFieldProps {
 
 export interface MUIFieldProps {
   helperText?: string
+  FormHelperTextProps?: TextFieldProps['FormHelperTextProps']
+  InputLabelProps?: TextFieldProps['InputLabelProps']
 }
 
 export type FormikFieldOmitProps =
