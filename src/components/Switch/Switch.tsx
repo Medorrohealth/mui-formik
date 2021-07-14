@@ -1,5 +1,4 @@
 import {
-  Checkbox as MUICheckbox,
   FormControl,
   FormControlLabel,
   FormControlLabelProps,

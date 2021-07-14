@@ -17,7 +17,6 @@ export interface MUIFieldProps {
 export type FormikFieldOmitProps =
   | 'value'
   | 'onChange'
-  | 'multiple'
   | 'checked'
   | 'onChange'
   | 'onBlur'

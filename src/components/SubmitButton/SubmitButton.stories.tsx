@@ -16,7 +16,7 @@ const meta: Meta = {
 
 export default meta
 
-export function SubmitButtonInForm() {
+export function SubmitButtonForm() {
   return (
     <Formik
       initialValues={{ email: '' }}

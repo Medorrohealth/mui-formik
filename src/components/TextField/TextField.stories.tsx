@@ -14,7 +14,7 @@ const meta: Meta = {
 
 export default meta
 
-export function TextFieldInForm() {
+export function TextFieldForm() {
   return (
     <Formik
       initialValues={{ email: '' }}
