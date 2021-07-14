@@ -21,7 +21,7 @@ const YupOptions = Yup.string()
   .oneOf(Options as any)
   .required()
 
-export function TextFieldInForm() {
+export function SelectForm() {
   return (
     <Formik
       initialValues={{ select: 'A' }}
