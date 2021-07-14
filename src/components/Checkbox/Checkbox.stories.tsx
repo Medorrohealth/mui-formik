@@ -19,7 +19,7 @@ const meta: Meta = {
 
 export default meta
 
-function Checkboxform() {
+export function CheckboxForm() {
   return (
     <Formik
       initialValues={{ enabled: false }}
@@ -43,8 +43,4 @@ function Checkboxform() {
       </Form>
     </Formik>
   )
-}
-
-export function CheckboxForm() {
-  return <Checkboxform />
 }

@@ -19,7 +19,7 @@ const meta: Meta = {
 
 export default meta
 
-function Checkboxform() {
+export function RatingForm() {
   return (
     <Formik
       initialValues={{ rating: 0 }}
@@ -43,8 +43,4 @@ function Checkboxform() {
       </Form>
     </Formik>
   )
-}
-
-export function RatingForm() {
-  return <Checkboxform />
 }

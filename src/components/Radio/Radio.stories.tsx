@@ -25,7 +25,7 @@ const YupOptions = Yup.string()
   .oneOf(Options as any)
   .required()
 
-function Checkboxform() {
+export function RadioGroupForm() {
   return (
     <Formik
       initialValues={{ pick: 'A' }}
@@ -58,8 +58,4 @@ function Checkboxform() {
       </Form>
     </Formik>
   )
-}
-
-export function RadioGroupForm() {
-  return <Checkboxform />
 }
