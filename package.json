@@ -79,8 +79,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "lodash.pick": "^4.4.0"
-  }
+  ]
 }
