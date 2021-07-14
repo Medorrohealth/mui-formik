@@ -1,6 +1,6 @@
 # mui-formik
 
-> Bleeding edge Formik Material-UI Bindings. `material-ui@next` and Formik name only binds. [Check out the storybook](https://medorrohealth.github.io/mui-formik/).
+> Bleeding edge Formik Material-UI Bindings. `material-ui@next` and Formik name only binds. [Check out the storybook](https://medorrohealth.github.io/mui-formik/). Purely functional with react hook bindings to formik
 
 [![NPM](https://img.shields.io/npm/v/mui-formik.svg)](https://www.npmjs.com/package/mui-formik) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
