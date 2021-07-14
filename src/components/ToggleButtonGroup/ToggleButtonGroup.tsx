@@ -11,14 +11,7 @@ import { useField } from 'formik'
 import React from 'react'
 import { CommonFormControlProps, FormikFieldProps } from '../FieldProps'
 
-export type ToggleButtonGroupProps = FormikFieldProps<
-  MUIToggleButtonGroupProps & {
-    disabled?: boolean
-    required?: boolean
-    FormHelperTextProps?: FormHelperTextProps
-    InputLabelProps?: InputLabelProps
-  }
->
+export type ToggleButtonGroupProps = FormikFieldProps<MUIToggleButtonGroupProps>
 
 export function ToggleButtonGroup({
   name,
