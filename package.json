@@ -14,7 +14,7 @@
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
-    "prepare": "run-s build",
+    "prepublish": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
     "test:lint": "eslint .",
@@ -29,13 +29,19 @@
     "@material-ui/core": "5.0.0-alpha.34",
     "@material-ui/lab": "5.0.0-alpha.34",
     "@material-ui/system": "5.0.0-alpha.34",
+    "formik": "^2.2.9",
     "react": "^17.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
+    "@emotion/react": "^11.4.0",
+    "@material-ui/core": "5.0.0-alpha.34",
+    "@material-ui/lab": "5.0.0-alpha.34",
+    "@material-ui/system": "5.0.0-alpha.34",
     "@storybook/addon-actions": "^6.3.4",
     "@storybook/addon-essentials": "^6.3.4",
     "@storybook/addon-links": "^6.3.4",
+    "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.4",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -59,7 +65,9 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^5.0.0",
+    "formik": "^2.2.9",
     "gh-pages": "^3.2.3",
+    "jest": "^27.0.6",
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
@@ -67,10 +75,14 @@
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
     "storybook": "^6.3.4",
-    "typescript": "^4.3.5"
+    "storybook-addon-emotion-theme": "^2.1.1",
+    "typescript": "^4.3.5",
+    "yup": "^0.32.9"
   },
   "files": [
     "dist"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "lodash.pick": "^4.4.0"
+  }
 }
