@@ -1,13 +1,11 @@
 # mui-formik
 
-> Formik Material-UI Bindings
+> Bleeding edge Formik Material-UI Bindings. Material-UI @ next and Formik name only binds. Check out the storybook.
 
 [![NPM](https://img.shields.io/npm/v/mui-formik.svg)](https://www.npmjs.com/package/mui-formik) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
-
 ```bash
-npm install --save mui-formik
+yarn add mui-formik
 ```
 
 ## Usage
@@ -15,13 +13,25 @@ npm install --save mui-formik
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'mui-formik'
-import 'mui-formik/dist/index.css'
+import { DateTimePicker } from 'mui-formik'
+import AdapterDayjs from '@material-ui/lab/AdapterDayjs' // or any other adapter you please
+import LocalizationProvider from '@material-ui/lab/LocalizationProvider'
+import { Formik, Form } from 'formik'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function Example() {
+  return (
+    <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <Formik
+        onSubmit={(values) => {
+          console.log(values.date)
+        }}
+      >
+        <Form>
+          <DateTimePicker name='date' />
+        </Form>
+      </Formik>
+    </LocalizationProvider>
+  )
 }
 ```
 
