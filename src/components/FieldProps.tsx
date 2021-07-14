@@ -12,6 +12,7 @@ export interface MUIFieldProps {
   FormHelperTextProps?: Omit<TextFieldProps['FormHelperTextProps'], 'ref'>
   InputLabelProps?: Omit<TextFieldProps['InputLabelProps'], 'ref'>
   required?: boolean
+  disabled?: boolean
 }
 
 export type FormikFieldOmitProps =

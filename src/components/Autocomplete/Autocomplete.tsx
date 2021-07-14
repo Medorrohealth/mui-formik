@@ -50,7 +50,7 @@ export function Autocomplete<
     <MUIAutocomplete
       {...restProps}
       {...field}
-      onChange={(event, value) => {
+      onChange={(_event, value) => {
         helpers.setValue(value)
       }}
       renderInput={(params) => (

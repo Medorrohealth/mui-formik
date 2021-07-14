@@ -1,7 +1,7 @@
 {
-  "name": "mui-formik",
+  "name": "@medorrohealth/mui-formik",
   "version": "1.0.0",
-  "description": "Formik Material-UI Bindings",
+  "description": "Bleeding edge Formik Material-UI Bindings. `material-ui@next` and Formik name only binds. Check out the storybook.",
   "author": "medorrohealth",
   "license": "MIT",
   "repository": "medorrohealth/mui-formik",

@@ -1,9 +1,7 @@
 import {
   FormControl,
   FormHelperText,
-  FormHelperTextProps,
   FormLabel,
-  InputLabelProps,
   ToggleButtonGroup as MUIToggleButtonGroup,
   ToggleButtonGroupProps as MUIToggleButtonGroupProps
 } from '@material-ui/core'

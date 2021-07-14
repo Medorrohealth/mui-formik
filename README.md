@@ -1,6 +1,6 @@
 # mui-formik
 
-> Bleeding edge Formik Material-UI Bindings. Material-UI @ next and Formik name only binds. Check out the storybook.
+> Bleeding edge Formik Material-UI Bindings. `material-ui@next` and Formik name only binds. Check out the storybook.
 
 [![NPM](https://img.shields.io/npm/v/mui-formik.svg)](https://www.npmjs.com/package/mui-formik) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
