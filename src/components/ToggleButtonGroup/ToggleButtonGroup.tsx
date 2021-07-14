@@ -49,7 +49,7 @@ export function ToggleButtonGroup({
   }
   return (
     <FormControl id={name} {...common}>
-      <FormLabel htmlFor={name} {...InputLabelProps}>
+      <FormLabel htmlFor={name} component='legend' {...InputLabelProps}>
         {label}
       </FormLabel>
       <MUIToggleButtonGroup

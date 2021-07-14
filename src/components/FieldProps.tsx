@@ -9,8 +9,8 @@ export interface BaseFormikFieldProps {
 
 export interface MUIFieldProps {
   helperText?: string
-  FormHelperTextProps?: TextFieldProps['FormHelperTextProps']
-  InputLabelProps?: TextFieldProps['InputLabelProps']
+  FormHelperTextProps?: Omit<TextFieldProps['FormHelperTextProps'], 'ref'>
+  InputLabelProps?: Omit<TextFieldProps['InputLabelProps'], 'ref'>
 }
 
 export type FormikFieldOmitProps =
